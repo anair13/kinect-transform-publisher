@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find freenect_launch)/launch/freenect.launch" />
+    <node name="kinect_transform_node" type="kinect_transform_node" pkg="kinect_transform" />
+</launch>
