@@ -1,0 +1,4 @@
+<launch>
+	<node name="tf" type="static_transform_publisher" pkg="tf" output="screen" args="-0.09080872 -0.57385154 0.44807894 -0.02758944 0.67559787 0.02852612 /torso /camera_link 50" />
+	<node name="kinect_transform_node" type="kinect_transform_node" pkg="kinect_transform" />
+</launch>

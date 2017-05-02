@@ -1,5 +1,5 @@
 <launch>
 	<include file="$(find freenect_launch)/launch/freenect.launch" />
-	<node name="tf" type="static_transform_publisher" pkg="tf" output="screen" args="0.233166920409 -0.0175536049407 0.290868997845 0.00762998373361 0.286603927776 -0.0131854413029 0.957928032824 /torso /camera_link 50" />
+	<node name="tf" type="static_transform_publisher" pkg="tf" output="screen" args="0.23966893831 0.0032759716464 0.220322877192 0.00939104795123 0.458605555512 0.016088755261 0.888444654791 /torso /camera_link 50" />
 	<node name="kinect_transform_node" type="kinect_transform_node" pkg="kinect_transform" />
 </launch>
